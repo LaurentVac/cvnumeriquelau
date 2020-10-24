@@ -10,34 +10,39 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="bg-secondary">
 
 
     <div class="container-fluid m-0 p-0">
+        <div class="row">
+        <img class="rounded-circle m-2 p-0 col-md-5" src="assets/img/moi.jpg" alt="ma photo">
+        <h1 class="text-center ml-4 col-md-6" style="font-size: 50px;">Laurent Vaché <br/>Développeur Web et Web Mobile </h1>
+        
 
+</div>
         <div class="row">
             <div class="col-5 pr-0">
                 <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active m-0 pl-0  py-3" id="onglet1"
+                    <a class="list-group-item list-group-item-action active m-0 pl-0  py-3 bg-info text-white font-weight-bold" id="onglet1"
                         data-toggle="list" href="#o1" role="tab" aria-controls="onglet1">Mon profil</a>
-                    <a class="list-group-item list-group-item-action m-0 pl-0 py-3" id="onglet2" data-toggle="list"
+                    <a class="list-group-item list-group-item-action m-0 pl-0 py-3 bg-info text-white font-weight-bold" id="onglet2" data-toggle="list"
                         href="#o2" role="tab" aria-controls="onglet2">Mes expériences professionnelles</a>
-                    <a class="list-group-item list-group-item-action pl-0 py-3" id="onglet3" data-toggle="list"
+                    <a class="list-group-item list-group-item-action pl-0 py-3 bg-info text-white font-weight-bold" id="onglet3" data-toggle="list"
                         href="#o3" role="tab" aria-controls="onglet3">Mes formations</a>
-                    <a class="list-group-item list-group-item-action pl-0 py-3" id="onglet4" data-toggle="list"
+                    <a class="list-group-item list-group-item-action pl-0 py-3 bg-info text-white font-weight-bold" id="onglet4" data-toggle="list"
                         href="#o4" role="tab" aria-controls="onglet4">Mes compétences informatiques</a>
-                    <a class="list-group-item list-group-item-action pl-0 py-3" id="onglet5" data-toggle="list"
+                    <a class="list-group-item list-group-item-action pl-0 py-3 bg-info text-white font-weight-bold" id="onglet5" data-toggle="list"
                         href="#o5" role="tab" aria-controls="onglet4">Mes loisirs</a>
-                    <a class="list-group-item list-group-item-action pl-0 py-3" id="onglet6" data-toggle="list"
+                    <a class="list-group-item list-group-item-action pl-0 py-3 bg-info text-white font-weight-bold" id="onglet6" data-toggle="list"
                         href="#o6" role="tab" aria-controls="onglet6">Contactez-moi</a>
-                    <a class="list-group-item list-group-item-action pl-0 py-3" id="onglet7" data-toggle="list"
-                        href="#o7" role="tab" aria-controls="onglet6">Contactez-moi</a>
+                    <a class="list-group-item list-group-item-action pl-0 py-3 bg-info text-white font-weight-bold" id="onglet7" data-toggle="list"
+                        href="#o7" role="tab" aria-controls="onglet6">Test carousel</a>
 
                 </div>
             </div>
             <div class="col-7">
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade active show" id="o1" role="tabpanel" aria-labelledby="onglet1">
+                    <div class="tab-pane fade active show " id="o1" role="tabpanel" aria-labelledby="onglet1">
                         Actuellement en reconversion professionnelle, je suis en formation jusqu'au 19
                         mars, à La
                         Manu située à
@@ -49,7 +54,7 @@
                         d'entamer une reconversion dans ce domaine qui me passionne.
                     </div>
                     <div class="tab-pane fade" id="o2" role="tabpanel" aria-labelledby="onglet2">
-                        <h3>2010-2012 : Supp'interim</h3>
+                        <h3 class="text-center">2010-2012 : Supp'interim</h3>
                         <ul class="pl-1">
                             <li>Maintenance mécanique, manutentionnaire (Boccard) ; 6 mois.</li>
                             <li>Préparateur de commandes (Auchan,Devred) ; 2 mois.</li>
@@ -59,12 +64,12 @@
                             <li>Et quelques missions de quelques jours : Rippeur, inventaire, manutentionnaire..</li>
                         </ul>
 
-                        <h3>Décembre 2012-Décembre 2013 : T.I.T</h3>
+                        <h3 class="text-center ">Décembre 2012-Décembre 2013 : T.I.T</h3>
                         <ul class="pl-1">
                             <li>Installateur Télécom ; CDD de 1 an.</li>
                         </ul>
 
-                        <h3>Octobre 2014-Juillet 2020</h3>
+                        <h3 class="text-center">Octobre 2014-Juillet 2020</h3>
                         <ul class="pl-1">
                             <li>Chauffeur livreur en messagerie ; CDI de 5 ans et 9 mois</li>
                         </ul>
@@ -77,15 +82,15 @@
                             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalCenterTitle">Compétences acquises </h5>
+                                    <div class="modal-header bg-danger text-light ">
+                                        <h5 class="modal-title " id="exampleModalCenterTitle">Compétences acquises </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div class="modal-body" style="background-image: url(assets/img/spidee.jpg);">
 
-                                        <ul class="">
+                                        <ul class="text-light">
                                             <li>Travailler en sécurité</li>
                                             <li>Savoir s'organiser</li>
                                             <li>Installer une ligne ADSL</li>
@@ -97,8 +102,8 @@
                                         </ul>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-danger"
+                                            data-dismiss="modal ">Close</button>
 
                                     </div>
                                 </div>
@@ -109,57 +114,58 @@
 
                     <div class="tab-pane fade" id="o3" role="tabpanel" aria-labelledby="onglet3">
                         <h3 class="text-center">2007-2009 </h3>
-                        <ul>
-                            <li>BEP Electrotechnique ; Lycée Edouard Branly à Amiens.</li>
+                        <ul class="pl-0">
+                            <li >BEP Electrotechnique ; Lycée Edouard Branly à Amiens.</li>
                         </ul>
                         <h3 class="text-center">2012</h3>
-                        <ul>
+                        <ul class="pl-0">
                             <li>Permis B</li>
                         </ul>
                         <h3 class="text-center">Septembre 2020-Mars 2021</h3>
-                        <ul>
+                        <ul class="pl-0">
                             <li>Préparation/Obtention du Titre Professionnel de Développeur Web et Web Mobile ; La Manu
                                 à Amiens.</li>
                         </ul>
                     </div>
-                    <div class="tab-pane fade" id="o4" role="tabpanel" aria-labelledby="onglet4"> <img
-                            class="img-fluid logo mb-1" src="Assets/img/HTML5.png" alt="logo html5">
+                    <div class="tab-pane fade" id="o4" role="tabpanel" aria-labelledby="onglet4"> 
+                        
+                       <img class="img-fluid logo mb-1" src="assets/img/HTML5.png" alt="logo html5">
                         <label for="html5"> HTML5 </label>
                         <div class="progress">
                             <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                         </div>
-                        <img class="img-fluid logo mb-1" src="Assets/img/css3.png" alt="logo css3">
+                        <img class="img-fluid logo mb-1" src="assets/img/css3.png" alt="logo css3">
                         <label for="CSS3">CSS3</label>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                         </div>
-                        <img class="img-fluid logo mb-1" src="Assets/img/js.png" alt="logo js">
+                        <img class="img-fluid logo mb-1" src="assets/img/js.png" alt="logo js">
                         <label for="js">Java Script </label>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                         </div>
-                        <img class="img-fluid logo" src="Assets/img/php.png" alt="logo php">
+                        <img class="img-fluid logo" src="assets/img/php.png" alt="logo php">
                         <label for="php">PHP </label>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100">25%</div>
                         </div>
-                        <img class="img-fluid logo  mb-1" src="Assets/img/bootstrap.png" alt="logo bootstrap">
+                        <img class="img-fluid logo  mb-1" src="assets/img/bootstrap.png" alt="logo bootstrap">
                         <label for="bootstrap"> Bootstrap </label>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                         </div>
-                        <img class="img-fluid logo  mb-1" src="Assets/img/vsc.png" alt="logo vsc">
+                        <img class="img-fluid logo  mb-1" src="assets/img/vsc.png" alt="logo vsc">
                         <label for="vsc">VS Code </label>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                         </div>
-                        <img class="img-fluid logo  mb-1" src="Assets/img/wordpress.png" alt="logo wordpress">
+                        <img class="img-fluid logo  mb-1" src="assets/img/wordpress.png" alt="logo wordpress">
                         <label for="wordpress">Wordpress </label>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
@@ -180,7 +186,7 @@
 
                     </div>
 
-                    <div class="tab-pane fade" id="o7" role="tabpanel" aria-labelledby="onglet7">
+                    <!-- <div class="tab-pane fade" id="o7" role="tabpanel" aria-labelledby="onglet7">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -262,7 +268,7 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
